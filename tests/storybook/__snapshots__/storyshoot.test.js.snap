@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button with text 1`] = `
+<button
+  onClick={[Function]}
+>
+  Hello Button
+</button>
+`;
+
+exports[`Storyshots Pages Index 1`] = `
+<div>
+  <div>
+    UI Components + Flow + Snapshot Test
+  </div>
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      Oh yeah!
+    </button>
+  </div>
+</div>
+`;
