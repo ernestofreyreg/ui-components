@@ -3,6 +3,21 @@
         "development": {
             "presets": [ "next/babel" ]
         },
+        "build-ui": {
+            "presets": [
+                [
+                  "env",
+                  {
+                    "modules": false
+                  }
+                ],
+                "stage-0", "react"
+              ],
+              "plugins": [
+                "external-helpers",
+                "transform-flow-strip-types"
+              ]
+        },
         "test": {
             "presets": ["env", "stage-0", "react"]
         }
