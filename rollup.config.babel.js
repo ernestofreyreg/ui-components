@@ -9,7 +9,7 @@ export default {
 
   output: {
     file: './build/ui-components.js',
-    format: 'es',
+    format: 'umd',
     name: 'UIComponents',
     sourcemap: true,
     globals: {
