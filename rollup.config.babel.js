@@ -9,8 +9,8 @@ export default {
 
   output: {
     file: './build/ui-components.js',
-    format: 'umd',
     name: 'UIComponents',
+    format: 'umd',
     sourcemap: true,
     globals: {
       react: 'React',

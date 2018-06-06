@@ -1,8 +1,8 @@
 (function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? factory(require('react')) :
-  typeof define === 'function' && define.amd ? define(['react'], factory) :
-  (factory(global.React));
-}(this, (function (React) { 'use strict';
+  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('react')) :
+  typeof define === 'function' && define.amd ? define(['exports', 'react'], factory) :
+  (factory((global.UIComponents = {}),global.React));
+}(this, (function (exports,React) { 'use strict';
 
   function styleInject(css, ref) {
     if ( ref === void 0 ) ref = {};
@@ -106,6 +106,10 @@
     }]);
     return Button;
   }(React.Component);
+
+  exports.Button = Button;
+
+  Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 //# sourceMappingURL=ui-components.js.map

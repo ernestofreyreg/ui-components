@@ -1,1 +1,4 @@
-export * from './Button'
+// @flow
+import Button from './Button'
+
+export { Button as Button }
