@@ -1,7 +1,7 @@
 {
     "env": {
         "development": {
-            "presets": [ "next/babel" ]
+            "presets": ["env", "stage-0", "react"]
         },
         "build-ui": {
             "presets": [
